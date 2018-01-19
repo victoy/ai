@@ -7,3 +7,4 @@ This git hub is personal purpose. Most codes are referenced belows.
 * [aymericdamien](https://github.com/aymericdamien/TensorFlow-Examples)
 * [Udacity Tensorflow Course](https://classroom.udacity.com/courses/ud730)
 * [Stanford Tensorflow Deep Learning Research](https://web.stanford.edu/class/cs20si/)
+* [Sung Kimg](http://hunkim.github.io/ml/)
