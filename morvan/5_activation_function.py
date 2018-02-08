@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-/**
+import tensorflow as tf
+'''
 https://www.tensorflow.org/versions/r0.12/api_docs/python/nn/activation_functions_
 
 - Neural Network 
@@ -11,7 +12,7 @@ https://www.tensorflow.org/versions/r0.12/api_docs/python/nn/activation_function
 		+ tf.nn.softplus(features, name=None)
 		+ tf.nn.softsign(features, name=None)
 		+ tf.nn.dropout(x, keep_prob, noise_shape=No, seed=None, name=None)
-*/
+'''
 
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
