@@ -116,26 +116,26 @@ print('Learning finished.')
 correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
-def evaluate(X_sample, y_sample, batch_size=512):
+def evaluate(x_sample, y_sample, batch_size=512):
     """Run a minibatch accuracy op"""
 
-    N = X_sample.shape[0]
+    n = x_sample.shape[0]
     correct_sample = 0
 
-    for i in range(0, N, batch_size):
-        X_batch = X_sample[i: i + batch_size]
+    for i in range(0, n, batch_size):
+        x_batch = x_sample[i: i + batch_size]
         y_batch = y_sample[i: i + batch_size]
-        N_batch = X_batch.shape[0]
+        n_batch = x_batch.shape[0]
 
         feed = {
-            X: X_batch,
-            Y: y_batch,
+            x: x_batch,
+            y: y_batch,
             keep_prob: 1
         }
 
-        correct_sample += sess.run(accuracy, feed_dict=feed) * N_batch
+        correct_sample += sess.run(accuracy, feed_dict=feed) * n_batch
 
-    return correct_sample / N
+    return correct_sample / n
 
 print("\nAccuracy Evaluates")
 print("-------------------------------")
