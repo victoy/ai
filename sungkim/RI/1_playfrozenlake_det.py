@@ -3,7 +3,7 @@ from gym.envs.registration import register
 import sys,tty,termios
 
 '''
-
+Play frozen lake game. 
 '''
 
 class _Getch:
