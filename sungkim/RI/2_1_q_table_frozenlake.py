@@ -6,7 +6,7 @@ import random as pr
 
 
 ''' 
-Dummy Q-Learning
+get Success Rate with Dummy Q-Learning
 rargmax : Argmax that chooses randomly among eligible maximum idices. 
 '''
 def rargmax(vector):  # https://gist.github.com/stober/1943451
