@@ -1,4 +1,4 @@
-Object Detection
+# Object Detection
 
 [Modern History of Object Recognition](https://medium.com/@nikasa1889/the-modern-history-of-object-recognition-infographic-aea18517c318)
 
@@ -7,7 +7,7 @@ Object Detection
 [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 [opencv](https://github.com/opencv/opencv)
 
-# Networks
+## Networks
 
 | Model name  | Architecture|
 | ------------ | :--------------: |
