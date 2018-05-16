@@ -2,11 +2,21 @@
 
 [Modern History of Object Recognition](https://medium.com/@nikasa1889/the-modern-history-of-object-recognition-infographic-aea18517c318)
 
+There are multiple object detection frameworks like below. This project includes some examples to use the framworks.
+* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)  
 * [Detectron](https://github.com/facebookresearch/Detectron)
 * [Yolo Darknet](https://github.com/pjreddie/darknet)
-* [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 * [opencv](https://github.com/opencv/opencv)
 
+### Tensorflow Object Detection API
+I assume we already have tensorflow. If not, you could reference this [installation guide](https://www.tensorflow.org/install/install_mac). 
+1. Clone [tensorflow models](https://github.com/tensorflow/models) ( Use this directory for #2)
+2. [Install Tensorflow Object Detection API](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md)
+ 
+ cf) You might like to add 'tensorflow/models/research' path to PYTHONPATH. If you add this into bash file and your editor, it would be helpful for your future work. 
+ [add to PYTHONPATH in PyCharm](https://stackoverflow.com/questions/17198319/how-to-configure-custom-pythonpath-with-vm-and-pycharm)
+ 
+ 
 ## Networks
 
 | Model name  | Architecture|
