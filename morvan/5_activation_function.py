@@ -2,7 +2,7 @@
 
 import tensorflow as tf
 '''
-https://www.tensorflow.org/versions/r0.12/api_docs/python/nn/activation_functions_
+https://www.ai.org/versions/r0.12/api_docs/python/nn/activation_functions_
 
 - Neural Network 
 	- Activation Functions

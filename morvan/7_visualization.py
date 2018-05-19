@@ -89,6 +89,6 @@ Just type below "tensorboard" command with your directory that you wrote in abov
 => direct to the local dir and run this in terminal:
 => $ tensorboard --logdir=logs
 
-hlee@hlees-MacBook-Pro:~/Documents/workspace/python/tensorflow$ tensorboard --logdir=logs
+hlee@hlees-MacBook-Pro:~/Documents/workspace/python/ai$ tensorboard --logdir=logs
 TensorBoard 0.1.8 at http://hlees-MacBook-Pro.local:6006 (Press CTRL+C to quit)
 '''

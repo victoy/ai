@@ -3,7 +3,7 @@ import numpy as np
 
 '''
 About "set_random_seed". 
-https://www.tensorflow.org/api_docs/python/tf/set_random_seed
+https://www.ai.org/api_docs/python/tf/set_random_seed
 When we repeat the session and use same sequeces of values. Otherwise, don't use this. 
 '''
 tf.set_random_seed(777)   # for reproducibility
